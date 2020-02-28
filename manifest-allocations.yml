@@ -9,6 +9,7 @@ applications:
     #REGISTRATION_SERVER_ENDPOINT: http://registration-pal-s.cfapps.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
     GRANT_TYPE: client_credentials
+    SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_SSO_AUTHORIZATIONGRANTTYPE : client_credentials
   services:
   - tracker-allocations-database
   - tracker-service-registry
